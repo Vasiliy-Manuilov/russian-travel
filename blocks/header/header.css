@@ -1,0 +1,31 @@
+.header {
+  max-width: 1184px;
+  /* для небольших ноутбуков */
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 28px 48px 0;
+}
+
+/* от вертикального до горизонтального положения планшета */
+@media (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+/* от большого смартфона до вертикального положения планшета */
+@media (max-width: 768px) {
+  .header {
+    max-width: 720px;
+    padding: 28px 24px 0;
+  }
+}
+
+/* мобильные устройства */
+@media (max-width: 425px) {
+  .header {
+    max-width: 288px;
+    padding: 16px 16px 0;
+  }
+}

@@ -1,0 +1,18 @@
+.lead__image {
+  margin-top: 64px;
+  width: 100%;
+}
+
+/* от вертикального до горизонтального положения планшета*/
+@media (min-width: 425px) and (max-width: 1024px) {
+  .lead__image {
+    margin-top: 56px;
+  }
+}
+
+/* мобильные устройства*/
+@media (max-width: 425px) {
+  .lead__image {
+    margin-top: 40px;
+  }
+}
