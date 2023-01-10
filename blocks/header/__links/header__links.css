@@ -1,9 +1,11 @@
 .header__links {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  gap: 18px;
+  align-items: end;
   list-style-type: none;
   margin: 0;
-  padding: 0 0 6px;
-  align-items: end;
+  padding: 0 0 5px;
 }
 
 
