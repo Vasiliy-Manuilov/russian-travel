@@ -6,6 +6,11 @@
   text-decoration: none;
   color: white;
   position: relative;
+  transition: opacity .2s linear;
+}
+
+.place__link:hover {
+  opacity: .8;
 }
 
 .place__link::after {
