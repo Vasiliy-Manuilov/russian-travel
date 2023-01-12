@@ -7,11 +7,10 @@
   line-height: 1.04;
 }
 
-/* мобильные устройства
 @media (max-width: 768px) {
   .lead__title {
     max-width: 288px;
     font-size: 40px;
-    line-height: 44px;
+    line-height: 1.1;
   }
-}*/
+}

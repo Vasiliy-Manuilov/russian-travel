@@ -3,28 +3,16 @@
   margin: 56px auto 0;
 }
 
-/* от вертикального до горизонтального положения планшета
+@media (max-width: 1280px) {
+  .lead {
+    margin: 48px auto 0;
+    max-width: 100%;
+    padding: 0 48px;
+  }
+}
+
 @media (max-width: 1024px) {
   .lead {
-    max-width: 928px;
-    margin: 48px auto 0;
+    padding: 0;
   }
-}*/
-
-/* от большого смартфона до вертикального положения планшета
-@media (max-width: 768px) {
-  .lead {
-    max-width: 768px;
-    margin: 48px auto 0;
-  }
-}*/
-
-/* мобильные устройства
-@media (max-width: 768px) {
-  .lead {
-    max-width: 320px;
-    margin: 48px auto 0;
-  }
-}*/
-
-
+}
