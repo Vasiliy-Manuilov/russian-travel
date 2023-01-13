@@ -5,3 +5,9 @@
   line-height: 1.63;
   margin: 40px 0 33px;
 }
+
+@media (max-width: 1023px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
