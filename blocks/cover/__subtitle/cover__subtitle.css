@@ -9,3 +9,10 @@
   z-index: 1;
 }
 
+@media (max-width: 767px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}

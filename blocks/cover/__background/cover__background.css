@@ -7,24 +7,30 @@
   min-height: 740px;
   background-image: url(../../../images/cover/cover-trains.jpg);
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   text-decoration: none;
   position: relative;
 }
 
 .cover__background::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background-color: #2a2c2f;
   position: absolute;
   top: 0;
   left: 0;
-  opacity: .3;
-  transition: opacity .2s linear;
+  opacity: 0.3;
+  transition: opacity 0.2s linear;
 }
 
 .cover__background:hover::after {
-  opacity: .8;
+  opacity: 0.8;
+}
+
+@media (max-width: 1279px) {
+  .cover__background {
+    min-height: calc(100vw * 740 / 1184);
+  }
 }
