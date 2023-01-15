@@ -7,15 +7,6 @@
   line-height: 1.2;
 }
 
-@media (max-width: 1023px) {
-  .lead__subtitle {
-    max-width: 640px;
-    font-size: 30px;
-    line-height: 1.2;
-    margin: 32px auto 0;
-  }
-}
-
 @media (max-width: 767px) {
   .lead__subtitle {
     max-width: 288px;
